@@ -1,7 +1,5 @@
-// Copyright (c) 2020 Mark Palfi All rights reserved
-//
 // Created by: Mark Palfi
-// Created on: Mar 2022
+// Created on: Apr 2022
 // This file contains the JS functions for index.html
 
 /**
@@ -9,10 +7,16 @@
  */
 function enterClicked() {
   // input
-  const street_name = document.getElementById("street-name").value
-  const street_number = parseInt(document.getElementById("street-number").value)
+  const age = document.getElementById("Age").value
 
+ // # if ... then ... else example */
+  if (age) >= 17 {
+    console.log("you can see an R rated movie alone. ");
+  }  else if (age) >= 13 {
+    console.log("you can see an PG-13 rated movie alone. ");
+  }  else if (age) >= 5 {
+    console.log("you can see an G rated movie alone. ");
+  }
   // output
-  document.getElementById("address").innerHTML =
-    "You live on: " + street_name + ", house " + street_number + "."
+  
 }
