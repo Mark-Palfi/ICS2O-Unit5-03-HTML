@@ -10,11 +10,11 @@ function enterClicked() {
   const age = document.getElementById("Age").value
 
  // # if ... then ... else example */
-  if (age) >= 17 {
+  if (age >= 17) {
     console.log("you can see an R rated movie alone. ");
-  }  else if (age) >= 13 {
+  }  else if (age >= 13) {
     console.log("you can see an PG-13 rated movie alone. ");
-  }  else if (age) >= 5 {
+  }  else if (age >= 5) {
     console.log("you can see an G rated movie alone. ");
   }
   // output
