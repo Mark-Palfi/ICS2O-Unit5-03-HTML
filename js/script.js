@@ -12,7 +12,7 @@ function enterClicked() {
  // # if ... then ... else example */
   if (age >= 17) {
     document.getElementById("+17").innerHTML =
-    }  else if (age >= 13) {
+  }  else if (age >= 13) {
     document.getElementById("+13").innerHTML =
   }  else if (age >= 5) {
     document.getElementById("+5").innerHTML =
