@@ -17,6 +17,7 @@ function enterClicked() {
   }  else if (age >= 5) {
     document.getElementById("+5").innerHTML =
   }
+  
   // output
   document.getElementById("+17").innerHTML =
     "you can see an R rated movie alone."
