@@ -11,18 +11,10 @@ function enterClicked() {
 
  // # if ... then ... else example */
   if (age >= 17) {
-    document.getElementById("+17").innerHTML =
+    document.getElementById("rating").innerHTML = "you can see an R rated movie alone."
   }  else if (age >= 13) {
-    document.getElementById("+13").innerHTML =
+    document.getElementById("rating").innerHTML = "you can see an PG-13 rated movie alone."
   }  else if (age >= 5) {
-    document.getElementById("+5").innerHTML =
+    document.getElementById("rating").innerHTML = "you can see an G rated movie alone."
   }
-  
-  // output
-  document.getElementById("+17").innerHTML =
-    "you can see an R rated movie alone."
-  document.getElementById("+13").innerHTML =
-    "you can see an PG-13 rated movie alone."
-  document.getElementById("+5").innerHTML =
-    "you can see an G rated movie alone."
 }
